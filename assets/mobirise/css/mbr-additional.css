@@ -786,10 +786,18 @@ a {
 }
 .skills-text {
   font-family: 'Golos Text', sans-serif;
-  font-size: 2.6rem;
+  font-size: 2rem;
   line-height: 1.5;
 }
 .skills-text > .mbr-iconfont {
+  font-size: 2rem;
+}
+.skills-title {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 2.6rem;
+  line-height: 1.5;
+}
+.skills-title > .mbr-iconfont {
   font-size: 2.6rem;
 }
 .cid-tHeG7yune1 {
@@ -1621,7 +1629,7 @@ a {
 }
 .cid-v0X4qRG2U4 {
   padding-top: 4rem;
-  padding-bottom: 6rem;
+  padding-bottom: 3rem;
   background-color: #f4ca0e;
 }
 .cid-v0X4qRG2U4 img,
@@ -1688,33 +1696,65 @@ a {
 .cid-v0X4qRG2U4 .item-wrapper .mbr-section-btn {
   text-align: justify;
 }
-.cid-v0XTH74Miu {
-  padding-top: 6rem;
-  padding-bottom: 1rem;
-  background-color: #f0eeea;
+.cid-v1cnBn1R0t {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: #0d285d;
 }
-.cid-v0XTH74Miu .mbr-text {
-  color: #041b11;
+.cid-v1cnBn1R0t .mbr-fallback-image.disabled {
+  display: none;
+}
+.cid-v1cnBn1R0t .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+.cid-v1cnBn1R0t .card-wrapper {
+  background: #f0eeea;
+}
+@media (max-width: 767px) {
+  .cid-v1cnBn1R0t .card-wrapper {
+    padding: 2rem 1.5rem;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .cid-v1cnBn1R0t .card-wrapper {
+    padding: 2.25rem;
+  }
+}
+@media (min-width: 992px) {
+  .cid-v1cnBn1R0t .card-wrapper {
+    padding: 4rem;
+  }
+}
+.cid-v1cnBn1R0t .mbr-text,
+.cid-v1cnBn1R0t .mbr-section-btn {
+  color: #000000;
+  text-align: left;
+}
+.cid-v1cnBn1R0t .card-title,
+.cid-v1cnBn1R0t .card-box {
   text-align: justify;
+  color: #041b11;
 }
-.cid-v0XTH74Miu .mbr-section-subtitle {
-  color: #000000;
+.cid-v1cnBn1R0t .mbr-section-subtitle {
   text-align: left;
 }
-.cid-v0XTH74Miu .mbr-section-title {
+.cid-v1cnBn1R0t .mbr-text {
   text-align: left;
   color: #041b11;
 }
-.cid-v0XTH74Miu .mbr-card-title {
-  color: #041b11;
+.cid-v1cnBn1R0t .mbr-card-title {
   text-align: left;
-}
-.cid-v0XTH74Miu .mbr-card-subtitle {
-  color: #000000;
+  color: #041b11;
 }
 .cid-tIskrx6sZd {
   padding-top: 3rem;
-  padding-bottom: 3rem;
+  padding-bottom: 5rem;
   background-color: #0d285d;
 }
 .cid-tIskrx6sZd .mbr-overlay {
